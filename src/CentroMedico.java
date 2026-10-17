@@ -48,7 +48,7 @@ public class CentroMedico {
         System.out.println("Total adolescentes: " + contadorAdolescentes);
         System.out.println("Total adultos: " + contadorAdultos);
         System.out.println("Total adultos mayores: " + contadorAdultomayor);
-        System.out.println("Descuentos aplicados: " + DescuentosAplicados);
+        System.out.println("Total por descuentos aplicados: $" + DescuentosAplicados);
 
         if (totalPacientes > 0) {
             System.out.println("Promedio por paciente: " + (dineroRecaudado / totalPacientes));
