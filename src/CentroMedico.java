@@ -52,7 +52,7 @@ public class CentroMedico {
         System.out.println("Total recaudado: $" + dineroRecaudado);
 
         if (totalPacientes > 0) {
-            System.out.println("Promedio por paciente: " + (dineroRecaudado / totalPacientes));
+            System.out.println("Promedio por paciente: $" + (dineroRecaudado / totalPacientes));
         } else {
             System.out.println("No se registraron pacientes.");
         }
